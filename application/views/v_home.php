@@ -10,7 +10,7 @@
                     <!-- Informasi -->
                     <div class="card shadow">
                         <div class="card-body text-center">
-                            <img src="<?=base_url('assets/img/login.jpeg');?>" alt="Icon Menu" height="200">
+                            <img src="<?=base_url('assets/img/data.jpeg');?>" alt="Icon Menu" height="200">
                         </div>
                         <div class="card-footer bg-info text-center">
                             <a href="<?=base_url('welcome/view/'.encrypt_url($row['idjenis_usaha']));?>"
