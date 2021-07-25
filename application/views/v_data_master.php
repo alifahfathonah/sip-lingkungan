@@ -142,6 +142,10 @@ function fileLokasi(x) {
                                     class="fas fa-upload"></i>
                             </a>
                             <?php else: ?>
+                            <a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" data-placement="top"
+                                title="Upload File" onclick="fileIzin(<?=$row['iddata_usaha'];?>)"><i
+                                    class="fas fa-upload"></i>
+                            </a>
                             <a href="<?=base_url();?>uploads/<?=$row['file_izin'];?>" target="_blank"
                                 class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top"
                                 title="View/Download File"><i class="fas fa-eye"></i>
@@ -155,6 +159,10 @@ function fileLokasi(x) {
                                     class="fas fa-upload"></i>
                             </a>
                             <?php else: ?>
+                            <a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip" data-placement="top"
+                                title="Upload File" onclick="fileLokasi(<?=$row['iddata_usaha'];?>)"><i
+                                    class="fas fa-upload"></i>
+                            </a>
                             <a href="<?=base_url();?>uploads/<?=$row['file_lokasi'];?>" target="_blank"
                                 class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top"
                                 title="View/Download File"><i class="fas fa-eye"></i>

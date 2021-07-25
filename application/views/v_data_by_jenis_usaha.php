@@ -52,7 +52,12 @@
                             <tr>
                                 <td><?= $n++; ?></td>
                                 <td><?= strtoupper($row['jenis_usaha']); ?></td>
-                                <td><?= ucfirst($row['nama_tempat']); ?></td>
+                                <td>
+                                    <a href="https://www.google.com/maps/place/<?=$row['latitude'].', '.$row['longitude'];?>"
+                                        target="_blank">
+                                        <?= ucfirst($row['nama_tempat']); ?>
+                                    </a>
+                                </td>
                                 <td><?= ucfirst($row['nama_pemilik']); ?></td>
                                 <td><?= ucfirst($row['alamat']); ?></td>
                                 <td><?= $row['luas_lahan'].' Ha'; ?></td>

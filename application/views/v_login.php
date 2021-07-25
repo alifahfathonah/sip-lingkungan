@@ -64,7 +64,7 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="<?=base_url();?>">Kembali</a>
+                                        <a class="small" href="<?=base_url();?>">Website</a>
                                     </div>
                                     <!-- <div class="text-center">
                                         <a class="small" href="register.html">Create an Account!</a>
