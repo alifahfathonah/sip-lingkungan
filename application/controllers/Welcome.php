@@ -17,6 +17,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('website',$data);
 	}
 
+	public function informasi_izin()
+	{
+		$data['content'] = 'v_informasi_izin';
+		$this->load->view('website',$data);
+	}
+
 	public function view($id){
 		$id = decrypt_url($id);
 		$data['data_by_jenis_usaha'] = $this->datamaster_m->getDataByJenisUsaha($id);

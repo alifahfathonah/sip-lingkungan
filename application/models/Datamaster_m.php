@@ -24,7 +24,7 @@ class Datamaster_m extends CI_Model {
     public function getDataByJenisUsaha($id){
         return $this->db->select('x.*,x1.*')
                         ->join('jenis_usaha x1','x1.idjenis_usaha=x.jenis_usaha_id')
-                        ->where($this->id,$id)
+                        ->where('x.jenis_usaha_id',$id)
                         ->get($this->table.' x')->result_array();
     }
 
