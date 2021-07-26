@@ -248,8 +248,8 @@
                         </div>
                         <div class="copyright-text">
                             <a href="#">
-                                <h3>S E L I N G A N M A N S E L</h3>
-                                <p>Sistem Informasi Perizinan Lingkungan Hidup</p>
+                                <h4>S E L I N G A N M A N S E L</h4>
+                                <p style="font-size:10pt;">Sistem Informasi Perizinan Lingkungan Hidup</p>
                             </a>
                         </div>
                     </div>

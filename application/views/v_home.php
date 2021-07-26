@@ -3,7 +3,7 @@
     <div class="swiper-container banner-slider">
         <div class="swiper-wrapper">
             <!-- Slide Item -->
-            <div class="swiper-slide"
+            <!-- <div class="swiper-slide"
                 style="background-image: url(<?=base_url('assets/website/');?>images/main-slider/1.jpg);">
                 <div class="content-outer">
                     <div class="content-box justify-content-center">
@@ -13,52 +13,24 @@
                             </h4>
                             <h2>SISTEM INFORMASI PERIZINAN LINGKUNGAN HIDUP DINAS LINGKUNGAN HIDUP KABUPATEN MANOKWARI
                                 SELATAN</h2>
-                            <!-- <div class="text">To improve the learning environment in primary schools by
-                                holistically creating world-class <br>basic education systems to the community.
-                            </div> -->
-                            <!-- <div class="link-box"><a href="#"
-                                    class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a>
-                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="swiper-slide"
+                style="background-image: url(<?=base_url('assets/website/');?>images/slide4.jpeg);">
+                <div class="content-outer">
+                    <div class="content-box justify-content-center">
+                        <div class="inner text-center">
+                            <h4><span class="border-shape-left"></span>SELAMAT DATANG
+                                <span class="border-shape-right"></span>
+                            </h4>
+                            <h2>SISTEM INFORMASI PERIZINAN LINGKUNGAN HIDUP DINAS LINGKUNGAN HIDUP KABUPATEN MANOKWARI
+                                SELATAN</h2>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Slide Item -->
-            <!-- <div class="swiper-slide"
-                style="background-image: url(<?=base_url('assets/website/');?>images/main-slider/2.jpg);">
-                <div class="content-outer">
-                    <div class="content-box justify-content-center">
-                        <div class="inner text-center">
-                            <div class="link-box-two"><a href="#" class="theme-btn default-btn">help the
-                                    needy</a></div>
-                            <h3>To improve learning environment in primary schools</h3>
-                            <h1>Together we can make <br>a Difference</h1>
-                            <div class="link-box"><a href="#"
-                                    class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- Slide Item -->
-            <!-- <div class="swiper-slide"
-                style="background-image: url(<?=base_url('assets/website/');?>images/main-slider/3.jpg);">
-                <div class="content-outer">
-                    <div class="content-box justify-content-center">
-                        <div class="inner text-center">
-                            <h1>Healing & Caring</h1>
-                            <div class="text">To improve the learning environment in primary schools by
-                                <br>holistically creating world-class.
-                            </div>
-                            <div class="link-box"><a href="#"
-                                    class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
         <div class="banner-slider-pagination style-two"></div>
         <div class="banner-slider-nav style-one">
@@ -70,6 +42,57 @@
     </div>
 </section>
 <!-- End Bnner Section -->
+
+<!-- Team Section -->
+<section class="team-section">
+    <div class="auto-container">
+        <div class="row m-0 justify-content-md-between align-items-end">
+            <div class="sec-title light">
+                <h1>PETA SEBARAN</h1>
+            </div>
+        </div>
+        <div class="wrapper-box">
+            <div class="row">
+                <!-- Team Blokc One -->
+                <div class="col-lg-4 team-block-one">
+                    <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
+                        <div class="image"><a href="<?=base_url('assets/website/');?>images/slide1.jpg"
+                                target="_blank"><img src="<?=base_url('assets/website/');?>images/slide1.jpg"
+                                    alt=""></a></div>
+                        <div class="lower-content">
+                            <h4> <a href="<?=base_url('assets/website/');?>images/slide2.jpg" target="_blank">IZIN HOTEL
+                                    DAN INDUSTRI</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Blokc One -->
+                <div class="col-lg-4 team-block-one">
+                    <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
+                        <div class="image"><a href="<?=base_url('assets/website/');?>images/slide2.jpg"
+                                target="_blank"><img src="<?=base_url('assets/website/');?>images/slide1.jpg"
+                                    alt=""></a></div>
+                        <div class="lower-content">
+                            <h4> <a href="<?=base_url('assets/website/');?>images/slide2.jpg" target="_blank">IZIN USAHA
+                                    BENGKEL</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Blokc One -->
+                <div class="col-lg-4 team-block-one">
+                    <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
+                        <div class="image"><a href="<?=base_url('assets/website/');?>images/slide3.jpg"
+                                target="_blank"><img src="<?=base_url('assets/website/');?>images/slide1.jpg"
+                                    alt=""></a></div>
+                        <div class="lower-content">
+                            <h4> <a href="<?=base_url('assets/website/');?>images/slide2.jpg" target="_blank">IZIN
+                                    UKL-UPL</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Blog Section -->
 <section class="blog-section">
