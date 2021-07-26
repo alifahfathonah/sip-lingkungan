@@ -25,7 +25,7 @@
                             <h4><span class="border-shape-left"></span>SELAMAT DATANG
                                 <span class="border-shape-right"></span>
                             </h4>
-                            <h2>SISTEM INFORMASI PERIZINAN LINGKUNGAN HIDUP DINAS LINGKUNGAN HIDUP KABUPATEN MANOKWARI
+                            <h2>SISTEM INFORMASI PERIZINAN LINGKUNGAN KABUPATEN MANOKWARI
                                 SELATAN</h2>
                         </div>
                     </div>

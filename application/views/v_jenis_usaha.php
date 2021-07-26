@@ -43,7 +43,7 @@
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form action="<?=base_url('jenisusaha/tambah');?>" method="post">
+            <form action="<?=base_url('jenisusaha/add');?>" method="post">
                 <div class="modal-header">
                     <h5 class="modal-title" id="staticBackdropLabel">Tambah Jenis Usaha</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

@@ -42,7 +42,7 @@
                                 <th>NOMOR IZIN</th>
                                 <th>TANGGAL IZIN</th>
                                 <th>INSTANSI PENERBIT IZIN</th>
-                                <th>STATUS IZIN</th>
+                                <th>STATUS PELAPORAN</th>
                                 <th>FILE IZIN</th>
                                 <th>FILE LOKASI</th>
                             </tr>

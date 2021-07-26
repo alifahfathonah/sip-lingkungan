@@ -19,7 +19,7 @@ class JenisUsaha extends CI_Controller {
         
     }
     
-    public function tambah()
+    public function add()
     {
         $data = [
             'jenis_usaha'=>$this->input->post('jenis_usaha',true)
