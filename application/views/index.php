@@ -125,17 +125,17 @@
                     style="background-color:teal;">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3 text-white">
                         <i class="fa fa-bars"></i>
                     </button>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
-                        <li class="nav-item">
+                        <li class="nav-item d-none d-sm-block">
                             <div class="nav-link text-white" id="tanggal"></div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-none d-sm-block">
                             <div class="nav-link text-white" id="jam"></div>
                         </li>
 
@@ -147,7 +147,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span
-                                    class="mr-4 d-none d-lg-inline text-white text-uppercase"><?= $this->session->fullname; ?></span>
+                                    class="mr-4 d-lg-inline text-white text-uppercase"><?= $this->session->fullname; ?></span>
                                 <!-- <img class="img-profile rounded-circle" src="<?=base_url('assets/img/');?>mhs.png"> -->
                             </a>
                             <!-- Dropdown - User Information -->

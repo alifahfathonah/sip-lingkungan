@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class JenisUsaha extends CI_Controller {
+class Jenisusaha extends CI_Controller {
 
     
     public function __construct()
@@ -40,4 +40,4 @@ class JenisUsaha extends CI_Controller {
     }
 }
 
-/* End of file JenisUsaha.php */
+/* End of file Jenisusaha.php */

@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class JenisUsaha_m extends CI_Model {
+class Jenisusaha_m extends CI_Model {
     
     private $table = 'jenis_usaha';
 
@@ -23,4 +23,4 @@ class JenisUsaha_m extends CI_Model {
 
 }
 
-/* End of file JenisUsaha_m.php */
+/* End of file Jenisusaha_m.php */
