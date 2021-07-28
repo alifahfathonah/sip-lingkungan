@@ -18,7 +18,7 @@
                 </div>
             </div> -->
             <div class="swiper-slide"
-                style="background-image: url(<?=base_url('assets/website/');?>images/slide4.jpeg);">
+                style="background-image: url(<?=base_url('assets/website/');?>images/slide1.jpeg);">
                 <div class="content-outer">
                     <div class="content-box justify-content-center">
                         <div class="inner text-center">
@@ -56,36 +56,37 @@
                 <!-- Team Blokc One -->
                 <div class="col-lg-4 team-block-one">
                     <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
-                        <div class="image"><a href="<?=base_url('assets/website/');?>images/slide1.jpg"
-                                target="_blank"><img src="<?=base_url('assets/website/');?>images/slide1.jpg"
+                        <div class="image"><a href="<?=base_url('assets/website/');?>images/no_pict.png"
+                                target="_blank"><img src="<?=base_url('assets/website/');?>images/no_pict.png"
                                     alt=""></a></div>
                         <div class="lower-content">
-                            <h4> <a href="<?=base_url('assets/website/');?>images/slide2.jpg" target="_blank">IZIN HOTEL
-                                    DAN INDUSTRI</a></h4>
+                            <h4> <a href="<?=base_url('assets/website/');?>images/no_pict.png" target="_blank">AMDAL</a>
+                            </h4>
                         </div>
                     </div>
                 </div>
                 <!-- Team Blokc One -->
                 <div class="col-lg-4 team-block-one">
                     <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
-                        <div class="image"><a href="<?=base_url('assets/website/');?>images/slide2.jpg"
-                                target="_blank"><img src="<?=base_url('assets/website/');?>images/slide1.jpg"
+                        <div class="image"><a href="<?=base_url('assets/website/');?>images/peta_izin_ukl_upl.jpg"
+                                target="_blank"><img src="<?=base_url('assets/website/');?>images/peta_izin_ukl_upl.jpg"
                                     alt=""></a></div>
                         <div class="lower-content">
-                            <h4> <a href="<?=base_url('assets/website/');?>images/slide2.jpg" target="_blank">IZIN USAHA
-                                    BENGKEL</a></h4>
+                            <h4> <a href="<?=base_url('assets/website/');?>images/peta_izin_ukl_upl.jpg"
+                                    target="_blank">UKL-UPL</a></h4>
                         </div>
                     </div>
                 </div>
                 <!-- Team Blokc One -->
                 <div class="col-lg-4 team-block-one">
                     <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
-                        <div class="image"><a href="<?=base_url('assets/website/');?>images/slide3.jpg"
-                                target="_blank"><img src="<?=base_url('assets/website/');?>images/slide1.jpg"
+                        <div class="image"><a href="<?=base_url('assets/website/');?>images/peta_izin_sppl.jpg"
+                                target="_blank"><img src="<?=base_url('assets/website/');?>images/peta_izin_sppl.jpg"
                                     alt=""></a></div>
                         <div class="lower-content">
-                            <h4> <a href="<?=base_url('assets/website/');?>images/slide2.jpg" target="_blank">IZIN
-                                    UKL-UPL</a></h4>
+                            <h4> <a href="<?=base_url('assets/website/');?>images/peta_izin_sppl.jpg"
+                                    target="_blank">SPPL</a>
+                            </h4>
                         </div>
                     </div>
                 </div>

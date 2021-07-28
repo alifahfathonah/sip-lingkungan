@@ -163,7 +163,7 @@
             <div class="mobile-menu style-one">
                 <div class="menu-box">
                     <div class="logo"><a href="index-2.html"><img src="<?=base_url('assets/website/');?>images/logo.png"
-                                alt="" width="250"></a></div>
+                                alt="" width="260"></a></div>
                     <!-- Main Menu -->
                     <nav class="main-menu navbar-expand-xl navbar-dark">
                         <div class="navbar-header">
@@ -248,8 +248,13 @@
                         </div>
                         <div class="copyright-text">
                             <a href="#">
-                                <h4>S E L I N G A N M A N S E L</h4>
-                                <p style="font-size:10pt;">Sistem Informasi Perizinan Lingkungan Hidup</p>
+                                <h4 class="d-none d-md-block">&nbspS E L I N G A N &nbsp&nbsp M A N S E L</h4>
+                                <p class="d-none d-md-block" style="font-size:9pt;">Sistem Informasi Perizinan
+                                    Lingkungan
+                                    Manokwari Selatan</p>
+                                <h4 class="d-md-none">S E L I N G A N M A N S E L</h4>
+                                <p class="d-md-none" style="font-size:8pt;">Sistem Informasi Perizinan Lingkungan
+                                    Manokwari Selatan</p>
                             </a>
                         </div>
                     </div>
