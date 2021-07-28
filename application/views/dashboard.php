@@ -73,7 +73,7 @@
                         <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                             Total Data Usaha</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">
-                            <?= number_format((totalJenisUsaha(idJenisUsaha('amdal')+totalJenisUsaha(idJenisUsaha('sppl')+totalJenisUsaha(idJenisUsaha('ukl-upl'))),0,'','.'); ?>
+                            <?= number_format((totalJenisUsaha(idJenisUsaha('amdal'))+totalJenisUsaha(idJenisUsaha('sppl'))+totalJenisUsaha(idJenisUsaha('ukl-upl'))),0,'','.'); ?>
                         </div>
                     </div>
                     <div class="col-auto">
