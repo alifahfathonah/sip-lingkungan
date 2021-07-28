@@ -17,7 +17,7 @@ class Jenisusaha_m extends CI_Model {
         $this->db->insert($this->table,$data);
     }
 
-    public function hapus($id){
+    public function hapusData($id){
         return $this->db->delete($this->table,[$this->id=>$id]);
     }
 

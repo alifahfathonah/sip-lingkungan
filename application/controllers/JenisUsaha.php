@@ -30,7 +30,7 @@ class Jenisusaha extends CI_Controller {
     }
 
     public function hapus($id){
-        $del = $this->jenisusaha_m->hapus($id);
+        $del = $this->jenisusaha_m->hapusData($id);
         if($del){
             $this->session->set_flashdata('success','Anda berhasil menghapus data Jenis Usaha');
         }else{
