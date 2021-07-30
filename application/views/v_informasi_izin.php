@@ -1,5 +1,5 @@
 <!-- Page Title -->
-<section class="page-title" style="background-image:url(<?=base_url('assets/website/');?>images/background/bg-13.jpg)">
+<section class="page-title" style="background-image:url(<?=base_url('assets/website/');?>images/banner3.png)">
     <div class="auto-container">
         <div class="content-box">
             <h1>SILAHKAN PILIH JENIS USAHA</h1>

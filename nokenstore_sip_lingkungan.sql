@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jul 30, 2021 at 06:05 PM
+-- Generation Time: Jul 30, 2021 at 06:45 PM
 -- Server version: 10.3.30-MariaDB
 -- PHP Version: 7.3.28
 
@@ -36,7 +36,7 @@ CREATE TABLE `data_usaha` (
   `alamat` varchar(256) DEFAULT NULL,
   `longitude` varchar(45) DEFAULT NULL,
   `latitude` varchar(45) DEFAULT NULL,
-  `luas_lahan` int(4) DEFAULT NULL,
+  `luas_lahan` double DEFAULT NULL,
   `jml_kamar` int(4) DEFAULT NULL,
   `jenis_kegiatan` varchar(128) DEFAULT NULL,
   `jml_karyawan` int(4) DEFAULT NULL,

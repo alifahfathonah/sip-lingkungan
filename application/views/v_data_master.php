@@ -254,8 +254,8 @@ function fileLokasi(x) {
                         <div class="col-md-4">
                             <label for="luas_lahan">Luas Lahan <span class="text-danger">*</span></label>
                             <div class="input-group mb-3">
-                                <input type="number" id="luas_lahan" name="luas_lahan" class="form-control"
-                                    aria-describedby="basic-addon2" min="0" value="0" required>
+                                <input type="text" id="luas_lahan" name="luas_lahan" class="form-control"
+                                    aria-describedby="basic-addon2" value="0" required>
                                 <div class="input-group-append">
                                     <span class="input-group-text" id="basic-addon2">Ha</span>
                                 </div>
@@ -312,9 +312,8 @@ function fileLokasi(x) {
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="tgl_izin">Tanggal Izin <span class="text-danger">*</span></label>
-                                <input type="date" class="form-control" id="tgl_izin" name="tgl_izin"
-                                    value="<?=date('Y-m-d');?>" required>
+                                <label for="tgl_izin">Tanggal Izin</label>
+                                <input type="date" class="form-control" id="tgl_izin" name="tgl_izin" value="">
                             </div>
                         </div>
                         <div class="col-md-8">
