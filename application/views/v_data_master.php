@@ -98,16 +98,14 @@ function fileLokasi(x) {
                 <thead>
                     <tr>
                         <th width="25">NO</th>
-                        <th>JENIS USAHA</th>
-                        <th>NAMA TEMPAT</th>
-                        <th>NAMA_PEMILIK</th>
+                        <th>JENIS DOK LINGKUNGAN</th>
+                        <th>JENIS USAHA/KEGIATAN</th>
+                        <th>PEMRAKARSA/PENANGGUNG JAWAB</th>
                         <th>ALAMAT</th>
                         <th>LUAS LAHAN</th>
                         <th>TAHUN OPERASI</th>
-                        <th>JENIS IZIN DIMILIKI</th>
-                        <th>NOMOR IZIN</th>
-                        <th>TANGGAL IZIN</th>
-                        <th>INSTANSI PENERBIT IZIN</th>
+                        <th>NO IZIN/KELAYAKAN LINGKUNGAN</th>
+                        <th>INSTANSI PENERBIT</th>
                         <th>STATUS PELAPORAN</th>
                         <th>FILE IZIN</th>
                         <th>FILE LOKASI</th>
@@ -124,9 +122,7 @@ function fileLokasi(x) {
                         <td><?= ucfirst($row['alamat']); ?></td>
                         <td><?= $row['luas_lahan'].' Ha'; ?></td>
                         <td><?= $row['tahun_operasi']; ?></td>
-                        <td><?= strtoupper($row['jenis_izin_dimiliki']); ?></td>
                         <td><?= strtoupper($row['nomor_izin']); ?></td>
-                        <td><?= $row['tgl_izin']; ?></td>
                         <td><?= strtoupper($row['instansi_penerbit_izin']); ?></td>
                         <td>
                             <?php if($row['status_izin']=='Aktif'): ?>

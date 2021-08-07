@@ -32,39 +32,31 @@
                         <thead>
                             <tr>
                                 <th width="25">NO</th>
-                                <th>JENIS USAHA</th>
-                                <th>NAMA TEMPAT</th>
-                                <th>NAMA_PEMILIK</th>
+                                <th>JENIS DOK LINGKUNGAN</th>
+                                <th>JENIS USAHA/KEGIATAN</th>
+                                <th>PEMRAKARSA/PENANGGUNG JAWAB</th>
                                 <th>ALAMAT</th>
                                 <th>LUAS LAHAN</th>
                                 <th>TAHUN OPERASI</th>
-                                <th>JENIS IZIN DIMILIKI</th>
-                                <th>NOMOR IZIN</th>
-                                <th>TANGGAL IZIN</th>
-                                <th>INSTANSI PENERBIT IZIN</th>
+                                <th>NO IZIN/KELAYAKAN LINGKUNGAN</th>
+                                <th>INSTANSI PENERBIT</th>
                                 <th>STATUS PELAPORAN</th>
                                 <th>FILE IZIN</th>
                                 <th>FILE LOKASI</th>
+                                <th width="170">AKSI</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <?php $n=1; foreach($data_by_jenis_usaha as $row): ?>
+                            <?php $n=1; foreach($all_data as $row): ?>
                             <tr>
                                 <td><?= $n++; ?></td>
                                 <td><?= strtoupper($row['jenis_usaha']); ?></td>
-                                <td>
-                                    <a href="https://www.google.com/maps/place/<?=$row['latitude'].', '.$row['longitude'];?>"
-                                        target="_blank">
-                                        <?= ucfirst($row['nama_tempat']); ?>
-                                    </a>
-                                </td>
+                                <td><?= ucfirst($row['nama_tempat']); ?></td>
                                 <td><?= ucfirst($row['nama_pemilik']); ?></td>
                                 <td><?= ucfirst($row['alamat']); ?></td>
                                 <td><?= $row['luas_lahan'].' Ha'; ?></td>
                                 <td><?= $row['tahun_operasi']; ?></td>
-                                <td><?= strtoupper($row['jenis_izin_dimiliki']); ?></td>
                                 <td><?= strtoupper($row['nomor_izin']); ?></td>
-                                <td><?= $row['tgl_izin']; ?></td>
                                 <td><?= strtoupper($row['instansi_penerbit_izin']); ?></td>
                                 <td>
                                     <?php if($row['status_izin']=='Aktif'): ?>
@@ -75,23 +67,46 @@
                                 </td>
                                 <td>
                                     <?php if($row['file_izin']==''): ?>
-                                    <span class="badge badge-danger">File Kosong</span>
+                                    <a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip"
+                                        data-placement="top" title="Upload File"
+                                        onclick="fileIzin(<?=$row['iddata_usaha'];?>)"><i class="fas fa-upload"></i>
+                                    </a>
                                     <?php else: ?>
+                                    <a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip"
+                                        data-placement="top" title="Upload File"
+                                        onclick="fileIzin(<?=$row['iddata_usaha'];?>)"><i class="fas fa-upload"></i>
+                                    </a>
                                     <a href="<?=base_url();?>uploads/<?=$row['file_izin'];?>" target="_blank"
                                         class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top"
-                                        title="View/Download File"><i class="fa fa-eye"></i>
+                                        title="View/Download File"><i class="fas fa-eye"></i>
                                     </a>
                                     <?php endif; ?>
                                 </td>
                                 <td>
                                     <?php if($row['file_lokasi']==''): ?>
-                                    <span class="badge badge-danger">File Kosong</span>
+                                    <a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip"
+                                        data-placement="top" title="Upload File"
+                                        onclick="fileLokasi(<?=$row['iddata_usaha'];?>)"><i class="fas fa-upload"></i>
+                                    </a>
                                     <?php else: ?>
+                                    <a href="#" class="btn btn-secondary btn-sm" data-toggle="tooltip"
+                                        data-placement="top" title="Upload File"
+                                        onclick="fileLokasi(<?=$row['iddata_usaha'];?>)"><i class="fas fa-upload"></i>
+                                    </a>
                                     <a href="<?=base_url();?>uploads/<?=$row['file_lokasi'];?>" target="_blank"
                                         class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top"
-                                        title="View/Download File"><i class="fa fa-eye"></i>
+                                        title="View/Download File"><i class="fas fa-eye"></i>
                                     </a>
                                     <?php endif; ?>
+                                </td>
+                                <td class="text-center">
+                                    <a href="#" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top"
+                                        title="Ubah Data" onclick="edit(<?=$row['iddata_usaha'];?>)"><i
+                                            class="fas fa-edit"></i>
+                                    </a>
+                                    <a href="<?=base_url('datamaster/hapus/');?><?=$row['iddata_usaha'];?>"
+                                        class="btn btn-danger btn-sm btn-hapus" data-toggle="tooltip"
+                                        data-placement="top" title="Hapus Data"><i class="fas fa-trash"></i> </a>
                                 </td>
                             </tr>
                             <?php endforeach; ?>
