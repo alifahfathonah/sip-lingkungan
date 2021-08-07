@@ -47,7 +47,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php $n=1; foreach($all_data as $row): ?>
+                            <?php $n=1; foreach($data_by_jenis_usaha as $row): ?>
                             <tr>
                                 <td><?= $n++; ?></td>
                                 <td><?= strtoupper($row['jenis_usaha']); ?></td>
