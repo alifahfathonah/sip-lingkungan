@@ -38,7 +38,7 @@
                                 <th>ALAMAT</th>
                                 <th>LUAS LAHAN</th>
                                 <th>TAHUN OPERASI</th>
-                                <th>NO IZIN/KELAYAKAN LINGKUNGAN</th>
+                                <th>NO.IZIN/PERLING/Rekom SPPL</th>
                                 <th>INSTANSI PENERBIT</th>
                                 <th>STATUS PELAPORAN</th>
                                 <th>FILE IZIN</th>
